@@ -1,0 +1,19 @@
+.marquee-container {
+    overflow: hidden;
+  }
+  
+  .marquee {
+    display: flex;
+    white-space: nowrap;
+    animation: marquee 80s linear infinite; 
+  }
+  
+  .marquee-item {
+    margin: 8px;
+  }
+  
+  /* @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+   */
